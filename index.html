@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- You can add a link to a favicon here if you have one -->
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Change the title to match your game! -->
+    <title>Typing Ninja Game</title>
+  </head>
+  <body>
+    <!--
+      This is the crucial part: The div where your React application
+      will be injected or "mounted".
+      The ID here ('root') MUST match the ID used in your
+      src/main.jsx file's document.getElementById('...').
+      Vite templates typically use 'root'. Your original Rosebud
+      code used 'renderDiv'. Make sure they match!
+      We'll stick with 'root' as it's the Vite standard.
+    -->
+    <div id="root"></div>
+
+    <!--
+      This script tag tells the browser to load and execute your
+      main JavaScript file, which starts the React app.
+      Vite handles the processing of this src/main.jsx file.
+      DO NOT change this path unless you have a specific reason.
+    -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
